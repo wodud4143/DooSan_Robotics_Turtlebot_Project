@@ -1,0 +1,9 @@
+# 텍스트는 LF로 저장한다. 셸·파이썬 스크립트는 체크아웃 환경과 관계없이 LF를 유지한다.
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+
+*.gif binary
+*.png binary
+*.jpg binary
+*.pgm binary

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot3_control</name>
+  <version>0.1.0</version>
+  <description>robot3(안내/짐 운반 로봇) 로컬 자율 스택: 후방/전방 사람 추적, 안내·추종 주행, 순찰, 미션 FSM.</description>
+  <maintainer email="wodud4143@naver.com">LEE JAE YOUNG</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>fleet_interfaces</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>nav2_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>action_msgs</depend>
+  <depend>irobot_create_msgs</depend>
+  <depend>builtin_interfaces</depend>
+  <depend>message_filters</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
